@@ -1,0 +1,513 @@
+:root {
+    --accent: #99862A;
+    --biege: #E6E3C4;
+    --gray: #7B7B7B;
+    --black: #282828;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    min-width: 375px;
+    max-width: 1920px;
+    color: white;
+    background-color: var(--black);
+}
+
+footer {
+    background-color: var(--accent);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+a:hover,
+a:visited,
+a:active {
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    background-image: url(/assets/pictures/welcom_banner.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+
+
+}
+
+.header__wrapper {
+    padding-top: 30px;
+}
+
+.header__contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8125rem;
+}
+
+.header__menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px 0;
+
+}
+
+.header__link {
+    border: 1px solid white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.header__link:first-child {
+    border-left: none;
+}
+
+.header__link:last-child {
+    border-right: none;
+}
+
+.header__menu {
+    margin: 15px 0;
+
+}
+
+.welcomm__button {
+    text-align: center;
+    padding: 25rem 0 10rem;
+}
+
+.welcomm__button button {
+    padding: 1rem 2rem;
+
+    background-color: var(--accent);
+    border: 0;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    transition: 0.5s all;
+    cursor: pointer;
+
+}
+
+.welcom__vine-list {
+    margin-right: 15px;
+}
+
+.welcom__testing {
+    margin-left: 15px;
+}
+
+.main__text {
+
+
+    margin-bottom: 100px;
+    padding-top: 20px;
+
+}
+
+.main__text p {
+    max-width: 733px;
+    width: 100%;
+    margin: 80px auto;
+
+    font-weight: 400;
+}
+
+.main__wrapper {
+    border: 1px solid white;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.main__wrapper h2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.main__text hr {
+    width: 10%;
+
+}
+
+.main__wrapper img {
+    margin-bottom: 60px;
+}
+
+.new-collection__section {
+
+    background-color: var(--biege);
+    padding-top: 80px;
+}
+
+.new-collection {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 60px 0;
+
+
+}
+
+
+
+.new-collection__line {
+    max-width: 1110px;
+    width: 100%;
+    border: 1px solid var(--accent);
+}
+
+.new-collection__left-side {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: var(--black);
+    max-width: 500px;
+    width: 100%;
+
+}
+
+.new-collection__left-side h2 {
+
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    max-width: 65%;
+}
+
+
+
+
+
+.left-side__line {
+    width: 10rem;
+    text-align: left;
+    border: 1px solid var(--accent);
+}
+
+
+
+.left-side__table {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 1rem 0;
+
+}
+
+.left-side__button {
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+}
+
+.new-collection__left-side button {
+    background-color: var(--accent);
+    border: 0;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+
+
+.table__text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.125rem;
+}
+
+
+
+.left-side__table div {
+    margin-top: 20px;
+}
+
+.new-collection__right-side {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: space-between;
+
+    max-width: 540px;
+    width: 100%;
+
+
+}
+
+.right-side__img-glass {
+    max-width: 540px;
+    width: 100%;
+    height: auto;
+
+}
+
+.right-side__img-bottle {
+    max-width: 255px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.form {
+    background-color: var(--black);
+    text-align: center;
+}
+
+.degust__form {
+    display: flex;
+    flex-direction: column;
+    margin: 5.6rem auto 2rem;
+}
+
+.degust__form p {
+    margin-top: 1rem;
+}
+
+.degust__form form select {
+    margin-top: 1rem;
+}
+
+.form__contacts_name {
+    margin-right: 2rem;
+}
+
+.form__contacts input,
+select {
+    background-color: var(--black);
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form__submit {
+    background-color: var(--black);
+    color: white;
+    border: 1px solid white;
+    margin-top: 2rem;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.form__img_grape {
+    position: absolute;
+    max-width: 240px;
+    width: 100%;
+    left: 20rem;
+    top: 180rem;
+}
+
+.form__img_barrel {
+    position: absolute;
+    max-width: 240px;
+    width: 100%;
+    left: 77rem;
+    top: 182rem;
+}
+
+.footer {
+
+    padding: 2rem 0;
+}
+
+.footer__up-line {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.footer__up-line p {
+    padding: 1rem 0;
+
+}
+
+.footer__down-line {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 1rem 0;
+}
+
+.footer__icon img {
+    margin: 0 0.5rem;
+}
+
+@media screen and (max-width:1919px) {
+
+    .form__img_grape,
+    .form__img_barrel {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 920px;
+        width: 100%;
+    }
+
+    .right-side__img-glass {
+        width: 460px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .right-side__img-bottle {
+        max-width: 210px;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .provider {
+        display: none;
+    }
+
+    .container {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .new-collection__right-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .right-side__img-glass {
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .right-side__img-bottle {
+        max-width: 250px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .footer__up-line {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .container,
+    .new-collection__left-side h2,
+    .form {
+        max-width: 380px;
+        width: 100%;
+    }
+
+    .header__menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        margin: auto;
+        max-width: 200px;
+        width: 100%;
+        border: none;
+        margin-top: 1rem;
+    }
+
+    .header__link {
+        border: none;
+    }
+
+    .welcomm__button {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+
+    }
+
+    .welcom__vine-list,
+    .welcom__testing {
+        max-width: 15rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    .new-collection__right-side,
+    .footer__up-line,
+    .footer__down-line p:first-child {
+        display: none;
+    }
+
+    .new-collection__left-side {
+        margin: auto;
+        text-align: center;
+    }
+
+    .degust__form {
+        max-width: 350px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .form__contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .form__contacts_name {
+        margin: 0;
+    }
+
+    .footer__down-line {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
